@@ -1,7 +1,7 @@
 ---
 name: Readonly
 description: '添付したファイルと、LLMの知識のみで回答(編集無し)'
-tools: ['read/problems', 'read/readFile', 'todo']
+tools: [vscode/memory, vscode/resolveMemoryFileUri, vscode/askQuestions, read/problems, read/readFile, read/viewImage, todo]
 ---
 
 ユーザーからの指示・質問に対して回答してください。
